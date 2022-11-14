@@ -1,9 +1,10 @@
-.metrics {
-    display: inline-block;
-    text-align: center;
+#metrics {
+    display:inline-block;
      display:flex;
+     text-align: center;
     flex-direction: row;
-    justify-content: space-evenly;  
+    justify-content: space-evenly; 
+    
 }
 .hunger {
     color:brown;
@@ -16,6 +17,7 @@
 .boredom{
     color:antiquewhite;
     font-size: 20px;
+    
 }
 h1 {
     text-align: center;
