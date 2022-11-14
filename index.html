@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Tamagotchi</h1>
+    <div class = 'age'> 
+        <label class = 'ageOf' for="age">Age:</label>
+
+        <progress id="age" max="10" value=0> 10% </progress>
+        
+        </div>
+
+    <div id = 'metrics'>
+
+    <!-- <h2 class = 'hunger'>Hunger</h2> -->
+    <label class = 'hunger' for="hunger">Hunger:</label>
+
+<progress id="hungry" max="10" value=1> 10% </progress>
+
+    <!-- <h2 class = 'sleepy'>Sleepiness</h2> -->
+    <label class = 'sleepy' for="sleep">Sleepiness:</label>
+
+<progress id="sleep" max="10" value="1"> 10% </progress>
+<!-- 
+    <h2 class = 'bored'>Boredom</h2> -->
+    <label class = 'boredom' for="bored">Boredom:</label>
+
+    <progress id="bored" max="10" value="1"> 10% </progress>
+    
+    </div>
+    <div class ='buttons'>
+    <button id="feed">Feed</button>
+    <button id="rest">Rest</button>
+    <button id="play">Play</button>
+</div>
+    <div class = 'pet'>
+        <img id='tama' src="http://assets.stickpng.com/thumbs/5a2d8de3b3c4622cbe359793.png">
+    </div>
+
+</body>
+</html>

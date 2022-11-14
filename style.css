@@ -1,0 +1,48 @@
+.metrics {
+    display: inline-block;
+    text-align: center;
+     display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+}
+.hunger {
+    color:brown;
+    font-size: 20px;
+ }
+.sleepy {
+    color:cornflowerblue;
+    font-size: 20px;
+}
+.boredom{
+    color:antiquewhite;
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+}
+img {
+   max-width: 120px;
+    max-height:120px;
+    top: 665px;
+    left: 700px;
+    position: absolute;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(https://i.ytimg.com/vi/Ic3ZdD5ko7k/maxresdefault.jpg);
+}
+h2 {
+    text-align:center;
+    color:ghostwhite;
+}
+.age{
+    text-align: center;
+    margin-bottom: 50px;
+    color:azure;
+    font-size:20px;
+}
